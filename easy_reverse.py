@@ -7,6 +7,7 @@ def reverse(x):
         if x < 0:
             y = str(x)
             y = y[::-1]
+            print(y)
             y = y[:-1]
             y = int(y)
             y = -y
@@ -17,6 +18,7 @@ def reverse(x):
         else:
             y = str(x)
             y = y[::-1]
+            print(y)
             y = int(y)
             if y < -2147483648 or y >= 2147483648:
                 return 0
@@ -25,5 +27,5 @@ def reverse(x):
     #return y
 
 
-h = reverse(4566846)
+h = reverse(1753497599)
 print(h)
