@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 def reverse(x):
+    print(x)
     if x < -2147483648 or x >= 2147483648:
         return 0
     else:
@@ -11,6 +12,7 @@ def reverse(x):
             y = y[:-1]
             y = int(y)
             y = -y
+            print(y)
             if y < -2147483648 or y >= 2147483648:
                 return 0
             else:
@@ -20,6 +22,7 @@ def reverse(x):
             y = y[::-1]
             print(y)
             y = int(y)
+            print(y)
             if y < -2147483648 or y >= 2147483648:
                 return 0
             else:
