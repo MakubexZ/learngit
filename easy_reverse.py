@@ -7,6 +7,7 @@ def reverse(x):
     else:
         if x < 0:
             y = str(x)
+            z = y
             y = y[::-1]
             print(y)
             y = y[:-1]
